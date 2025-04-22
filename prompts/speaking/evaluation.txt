@@ -21,28 +21,38 @@ DURATION:
 ---EVALUATION START---
 
 fluency_and_coherence_score: [0–9]
-fluency_and_coherence_comment: [comment based on official descriptors only]
+fluency_and_coherence_comment: [comment based on official descriptors only, with specific examples from student's responses]
 
 lexical_resource_score: [0–9]
-lexical_resource_comment: [comment based on official descriptors only]
+lexical_resource_comment: [comment based on official descriptors only, with specific examples of vocabulary usage from student's responses]
 
 grammatical_range_and_accuracy_score: [0–9]
-grammatical_range_and_accuracy_comment: [comment based on official descriptors only]
+grammatical_range_and_accuracy_comment: [comment based on official descriptors only, with specific examples of grammar usage from student's responses]
 
 pronunciation_score: [0–9]
 pronunciation_comment: [comment based on official descriptors only]
 
 overall_band_score: [X.X]
-overall_comment: [short summary of what to improve]
+overall_comment: [detailed summary of strengths and weaknesses, with specific examples from questions]
 
 ---EVALUATION END---
 
 Rules:
 - Each criterion score (fluency_and_coherence, lexical_resource, grammatical_range_and_accuracy, pronunciation) must be a whole number between 0 and 9.
 - The overall_band_score is calculated as the average of the four category scores.
-- Apply official IELTS rounding:
-    - If the average ends in .25 or .75 → round up to the nearest 0.5 or whole band.
-    - Otherwise → round to the nearest 0.5 or whole band.
+- The final overall_band_score MUST be either a whole number (X.0) or a half band (X.5).
+- Apply official IELTS rounding rules strictly:
+    - If the average ends in .25 or .75 → round up to the nearest 0.5
+    - If the average ends in .00 → keep as is (X.0)
+    - If the average ends in .50 → keep as is (X.5)
+    - For any other decimal → round to the nearest 0.5
+- Examples of correct rounding:
+    - 5.25 → 5.5
+    - 5.75 → 6.0
+    - 5.00 → 5.0
+    - 5.50 → 5.5
+    - 5.33 → 5.5
+    - 5.67 → 6.0
 - Consider the duration of the response when evaluating fluency and coherence:
     - For Part 2: 
         - If the response is significantly shorter than 2 minutes, it may indicate lack of development and should affect the score.
