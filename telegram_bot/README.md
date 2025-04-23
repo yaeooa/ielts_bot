@@ -38,7 +38,6 @@ A Telegram bot designed to help users prepare for the IELTS exam. The bot provid
 - ❓ Ask about IELTS: Get instant answers to any IELTS-related questions
 - 💬 Support: Direct access to the bot administrator
 - Random test selection for varied practice
-- Progress tracking
 - Detailed explanations and tips
 
 ## Technical Requirements
@@ -52,7 +51,7 @@ A Telegram bot designed to help users prepare for the IELTS exam. The bot provid
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ielts_bot.git
+git clone https://github.com/yaeooa/ielts_bot
 cd ielts_bot
 ```
 
