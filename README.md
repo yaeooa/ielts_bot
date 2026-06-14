@@ -1,6 +1,10 @@
 # IELTS Training Bot
 
-A Telegram bot designed to help users prepare for the IELTS exam. The bot provides practice materials, instant feedback, and detailed explanations for all four sections of the IELTS test.
+## Overview
+
+IELTS Training Bot is an LLM-powered Telegram bot for IELTS preparation. It helps users practice Writing, Speaking, Reading and Listening, gives structured feedback, and supports voice-based speaking practice via speech-to-text.
+
+I built this as a product-like AI education prototype: Telegram interface, user flows, GPT-based evaluation, Whisper transcription, practice materials, logging and experiments with scoring consistency.
 
 ## Features
 
@@ -39,6 +43,16 @@ A Telegram bot designed to help users prepare for the IELTS exam. The bot provid
 - 💬 Support: Direct access to the bot administrator
 - Random test selection for varied practice
 - Detailed explanations and tips
+
+## What I built
+
+- Telegram bot logic and user flows
+- GPT-based IELTS Writing evaluation prompts
+- Whisper-based voice transcription for Speaking practice
+- feedback structure by IELTS-style criteria
+- storage and progress tracking
+- error handling and logging
+- prompt robustness and few-shot evaluation experiments
 
 ## Technical Requirements
 
